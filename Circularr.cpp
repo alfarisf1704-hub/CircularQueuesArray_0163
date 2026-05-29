@@ -47,5 +47,10 @@ public:
 
     void remove()
     {
+        if (FRONT == -1)
+        {
+            cout << "\nQueue overflow\n";
+            return;
+        }
     }
 }
