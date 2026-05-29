@@ -28,5 +28,8 @@ public:
             cout << "\nQueue overflow\n";
             return;
         }
+
+        // apakah antrian kosong
+        if ()
     }
 }
