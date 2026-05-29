@@ -126,13 +126,20 @@ int main()
         try
         {
             cout << "Menu" << endl;
-            cout << "1. " << endl;
-            cout << "2. " << endl;
-            cout << "3. " << endl;
-            cout << "4. " << endl;
+            cout << "1. implement insert operation " << endl;
+            cout << "2. implement delete operation " << endl;
+            cout << "3. Display Values " << endl;
+            cout << "4. Exit" << endl;
             cout << "Enter your choice (1-4) : " << endl;
             cin >> ch;
             cout << endl;
+
+            switch (ch)
+            {
+            case '1':
+            {
+                        }
+            }
         }
     }
 }
