@@ -60,6 +60,10 @@ public:
             REAR = -1;
         }
         else
-        // jika element yg dihapus berada di posisi terakhir array, maka kembali ke awal array
+            // jika element yg dihapus berada di posisi terakhir array, maka kembali ke awal array
+            if (FRONT == max - 1)
+                FRONT = 0;
+            else
+                FRONT = FRONT + 1;
     }
 }
