@@ -120,4 +120,19 @@ int main()
 {
     Queues q;
     char ch;
+
+    while (true)
+    {
+        try
+        {
+            cout << "Menu" << endl;
+            cout << "1. " << endl;
+            cout << "2. " << endl;
+            cout << "3. " << endl;
+            cout << "4. " << endl;
+            cout << "Enter your choice (1-4) : " << endl;
+            cin >> ch;
+            cout << endl;
+        }
+    }
 }
