@@ -30,6 +30,11 @@ public:
         }
 
         // apakah antrian kosong
-        if ()
-    }
+        if (FRONT == -1)
+        {
+            FRONT = 0;
+            REAR = 0;
+        }
+        else
+        }
 }
