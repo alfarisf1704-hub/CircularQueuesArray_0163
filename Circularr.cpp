@@ -47,6 +47,7 @@ public:
 
     void remove()
     {
+        // apakah antrian kosong
         if (FRONT == -1)
         {
             cout << "\nQueue underflow\n";
@@ -54,6 +55,7 @@ public:
         }
         cout << "\nThe element deleted from the queue is : " << queue_array[FRONT] << "\n";
 
+        // jika elemen punya satu element
         if (FRONT == REAR)
         {
             FRONT = -1;
@@ -71,5 +73,14 @@ public:
 
     void display()
     {
+        int FRONT_Position = FRONT;
+        int REAR_Position = REAR;
+
+        // apakah antrian kosong
+        if (FRONT_Position = -1)
+        {
+            cout << "\nQueue is Empty\n";
+            return;
+        }
     }
 }
