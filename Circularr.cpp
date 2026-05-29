@@ -9,9 +9,13 @@ private:
     int queue_array[max];
 
 public:
-    queues()
+    Queues()
     {
         FRONT = -1;
         REAR = -1;
+    }
+
+    void insert()
+    {
     }
 }
